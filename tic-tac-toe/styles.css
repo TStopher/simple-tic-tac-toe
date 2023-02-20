@@ -40,10 +40,14 @@
 	}
 
 	
-	#main {
+	.main {
 		text-align: center;
 	}
-
+        	.game-grid {
+		display: grid;
+		gap: 2rem;
+		grid-template-columns: 100px 100px 100px;
+	}
 	
 	#ins {
         font-family: 'Lora', sans-serif;
